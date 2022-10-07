@@ -1,4 +1,22 @@
+.flex-container-header {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
 .flex-container {
     display: flex;
-    background-color: blanchedalmond;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+}
+
+.flex-container-footer {
+    display: flex;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
 }
