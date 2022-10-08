@@ -1,9 +1,19 @@
 .flex-container-header {
     display: flex;
     flex-direction: row;
-    border: 10px solid red;
-    margin: 20px;
-    padding: 20px;
+    background-color: #ebe9e7;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.flex-container-header>div {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
 }
 
 .flex-container {
