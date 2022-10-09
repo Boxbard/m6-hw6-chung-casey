@@ -63,12 +63,13 @@ body {
     justify-content: center;
     flex-direction: column;
     flex-basis: 500px;
+    background-color: paleturquoise;
 }
 
 .sidebar {
     display: flex;
     flex-wrap: nowrap;
-    background-color: #0f3e50;
+    background-color: skyblue;
 }
 
 .contact-me {
@@ -76,11 +77,11 @@ body {
     justify-content: right;
     flex-direction: row;
     flex-basis: 10px;
+    background-color: white;
 }
 
 .flex-container-footer {
     display: flex;
-    background-color: aquamarine;
-    padding: 20px;
+    background-color: #ebe9e7;
     justify-content: center;
 }
