@@ -52,7 +52,7 @@ body {
     background-color: #ffffff;
 } */
 
-.flex-container-main {
+/* .flex-container-main {
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
@@ -60,11 +60,18 @@ body {
     width: 700px;
     justify-content: center;
     align-items: center;
+} */
+
+.main-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 500px;
 }
 
 .flex-container-footer {
     display: flex;
     background-color: aquamarine;
-    margin: 20px;
     padding: 20px;
+    justify-content: center;
 }
