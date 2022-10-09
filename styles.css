@@ -21,8 +21,8 @@ body {
     padding: 0;
     overflow: hidden;
     justify-content: center;
+    background-color: white;
     /* border: 1px solid #0f3e50; */
-    background-color: #ebe9e7;
     font-family: Berkshire Swash;
     font-size: 20px;
 }
@@ -42,33 +42,48 @@ body {
 
 .main-nav li a {
     display: block;
-    color: #0f3e50;
+    /* color: #0f3e50; */
     text-align: center;
     text-decoration: none;
     padding: 10px 25px;
 }
 
-/* .main-nav li a:hover {
-    background-color: #ffffff;
-} */
+.main-nav li a:link,
+a:visited {
+    background-color: white;
+    color: #0f3e50;
+}
 
-/* .flex-container-main {
+.main-nav li a:hover,
+a:active {
+    background-color: #0f3e50;
+    color: white;
+}
+
+.flex-container-main {
     display: flex;
-    flex-direction: column;
-    background-color: antiquewhite;
-} */
+    /* flex-direction: row; */
+    justify-content: center;
+    background-color: grey;
+    padding: 20px;
+}
 
 .main-article {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    /* oh wow, the flex direction really caught me off guard, this vastly changes things. */
     flex-basis: 500px;
+    margin: 10px;
     background-color: paleturquoise;
 }
 
 .article-h1 {
     display: flex;
     background-color: aqua;
+    font-family: Berkshire Swash;
+    font-size: 32px;
+    color: rgb(40, 40, 40);
+    border-bottom: 1px solid #0f3e50;
 }
 
 .profile-img {
@@ -95,15 +110,25 @@ body {
 .sidebar {
     display: flex;
     flex-wrap: nowrap;
-    background-color: skyblue;
+    flex-flow: column;
+    background-color: white;
+    margin: 10px;
 }
 
 .contact-me {
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    gap: 10px;
     flex-direction: row;
     flex-basis: 10px;
-    background-color: white;
+    /* background-color: white; */
+}
+
+.sidebar-h2 {
+    display: flex;
+    font-family: Berkshire Swash;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(40, 40, 40);
 }
 
 .flex-container-footer {
