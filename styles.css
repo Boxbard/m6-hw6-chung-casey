@@ -56,22 +56,26 @@ body {
     display: flex;
     flex-direction: column;
     background-color: antiquewhite;
-    margin: 20px;
-    width: 700px;
-    justify-content: center;
-    align-items: center;
 } */
 
 .main-article {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-basis: 500px;
 }
 
-.contact-bar {
+.sidebar {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #0f3e50;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-basis: 10px;
 }
 
 .flex-container-footer {
