@@ -66,6 +66,32 @@ body {
     background-color: paleturquoise;
 }
 
+.article-h1 {
+    display: flex;
+    background-color: aqua;
+}
+
+.profile-img {
+    display: flex;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
+
+.p1 {
+    display: flex;
+    background-color: rosybrown;
+}
+
+.p2 {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.p3 {
+    display: flex;
+    background-color: darkgray;
+}
+
 .sidebar {
     display: flex;
     flex-wrap: nowrap;
