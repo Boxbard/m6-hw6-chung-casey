@@ -24,7 +24,7 @@ body {
     background-color: white;
     /* border: 1px solid #0f3e50; */
     font-family: Berkshire Swash;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .main-nav li {
@@ -37,7 +37,7 @@ body {
 }
 
 .main-nav li:first-child {
-    padding-right: 100px;
+    padding-right: 200px;
 }
 
 .main-nav li a {
@@ -64,7 +64,7 @@ a:active {
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
-    background-color: grey;
+    /* background-color: grey; */
     padding: 20px;
 }
 
@@ -74,12 +74,15 @@ a:active {
     /* oh wow, the flex direction really caught me off guard, this vastly changes things. */
     flex-basis: 500px;
     margin: 10px;
-    background-color: paleturquoise;
+    /* padding: 25px; */
+    background-color: white;
+    font-family: Open Sans;
+    line-height: 2.0;
 }
 
 .article-h1 {
     display: flex;
-    background-color: aqua;
+    /* background-color: aqua; */
     font-family: Berkshire Swash;
     font-size: 32px;
     color: rgb(40, 40, 40);
@@ -88,8 +91,9 @@ a:active {
 
 .profile-img {
     display: flex;
-    padding: 20px;
-    background-color: lightgoldenrodyellow;
+    /* padding: 20px; */
+    /* background-color: lightgoldenrodyellow; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .p1 {
@@ -102,17 +106,19 @@ a:active {
     background-color: antiquewhite;
 }
 
-.p3 {
+/* .p3 {
     display: flex;
     background-color: darkgray;
-}
+} */
 
 .sidebar {
     display: flex;
     flex-wrap: nowrap;
     flex-flow: column;
     background-color: white;
-    margin: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    max-height: 150px;
 }
 
 .contact-me {
@@ -133,6 +139,9 @@ a:active {
 
 .flex-container-footer {
     display: flex;
-    background-color: #ebe9e7;
+    background-color: grey;
+    color: white;
+    padding: 5px 0px;
+    margin: 10px 0px;
     justify-content: center;
 }
