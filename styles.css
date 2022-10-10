@@ -72,7 +72,6 @@ a:active {
 .main-article {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     /* oh wow, the flex direction really caught me off guard, this vastly changes things. */
     flex-basis: 500px;
     margin: 10px;
@@ -93,25 +92,23 @@ a:active {
 }
 
 .profile-img {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     /* padding: 20px; */
     margin: 10px 0px;
     /* background-color: lightgoldenrodyellow; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
 }
 
 .p1 {
-    display: flex;
+    display: block;
     /* background-color: rosybrown; */
-    flex-wrap: wrap;
 }
 
 .p2 {
-    display: flex;
+    display: block;
     /* background-color: antiquewhite; */
     text-indent: 50px;
-    flex-wrap: wrap;
 }
 
 /* .p3 {
