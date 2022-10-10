@@ -10,8 +10,9 @@ Between the hurricane prep messing up my already poor time management skills and
 
 ---
 
-- [ ] Navigation bar is in the correct position. However, I need the last 3 items to be aligned on the right side, and the first item aligned to the left.
-- [ ] I need my main-article to be it's own column that can exist alongside the sidebar, which would be in its own column.
-- [ ] Additionally, these columns need a set width (which would use the flex-basis function I believe)
+- [x] Navigation bar is in the correct position. However, I need the last 3 items to be aligned on the right side, and the first item aligned to the left.
+- [x] I need my main-article to be it's own column that can exist alongside the sidebar, which would be in its own column.
+- [x] Additionally, these columns need a set width (which would use the flex-basis function I believe)
 - [x] Footer is in the correct position, I'm pretty sure I don't need to worry too much about it.
 - [x] Color coding everything because holy heck it's helpful.
+- [ ] One final thing! Text alignment needs to wrap around the profile image.
